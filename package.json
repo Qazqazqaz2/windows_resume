@@ -1,0 +1,24 @@
+{
+  "name": "windowsite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cleanup:legacy": "powershell -ExecutionPolicy Bypass -File ./scripts/cleanup-legacy.ps1 -Mode move",
+    "cleanup:legacy:delete": "powershell -ExecutionPolicy Bypass -File ./scripts/cleanup-legacy.ps1 -Mode delete"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1"
+  }
+}
