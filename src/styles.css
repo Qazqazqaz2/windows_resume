@@ -343,7 +343,7 @@ button {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background-image: url('/public/images/main/77_1-1-bg-copyright.jpg');
+  background-image: url('/images/main/77_1-1-bg-copyright.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;
